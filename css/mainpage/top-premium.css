@@ -1,0 +1,11 @@
+#top-premium {
+	background: #fcf7ff; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #fcf7ff 0%, #ad7cd6 49%, #8e0be5 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #fcf7ff 0%, #ad7cd6 49%, #8e0be5 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(
+		135deg,
+		#fcf7ff 0%,
+		#ad7cd6 49%,
+		#8e0be5 100%
+	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}

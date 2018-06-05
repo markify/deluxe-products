@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 @import "reset.css"; /* reset css goes first */
+@import "mainpage/top-premium.css"; /* overwrite */
 @import "mainpage/header.css"; /* overwrite */
 
-body {
+.container {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 20px;
 }
