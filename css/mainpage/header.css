@@ -1,0 +1,73 @@
+header {
+	padding: 30px 20px;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+header a {
+	text-decoration: none;
+	color: lightblue;
+}
+/* keeps track of element being floated, clears it up */
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+header .menu a {
+	text-transform: uppercase;
+}
+
+header .toplogo {
+	display: inline-block;
+	float: left;
+	margin-right: 50px;
+}
+
+/* when positioning with detail, position:relative - top,bottom,right,left */
+header .menu {
+	display: inline-block;
+	float: left;
+	position: relative;
+	top: 20px;
+}
+header .header-buttons {
+	display: inline-block;
+	float: right;
+}
+
+/* for the blue button */
+header .header-buttons .blue-btn {
+	border-radius: 2rem;
+	background: blue;
+	padding: 10px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: whitesmoke;
+	position: relative;
+	margin-right: 10px;
+	top: 20px;
+	-webkit-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.31);
+	-moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.31);
+	box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.31);
+}
+
+header .header-buttons .blue-btn .fas {
+	margin-left: 4px;
+}
+/* for the orange button */
+header .header-buttons .orange-btn {
+	border-radius: 2rem;
+	background: orange;
+	border-color: orange;
+	padding: 10px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: whitesmoke;
+	position: relative;
+	top: 20px;
+	-webkit-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.31);
+	-moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.31);
+	box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.31);
+}
