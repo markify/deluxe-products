@@ -8,3 +8,13 @@
 	margin: 0 auto;
 	padding: 0 20px;
 }
+/* 10% left right */
+.fluid-container {
+	margin: 0 5%;
+	padding: 0 20px;
+}
+.box-shadow-de {
+	-webkit-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.31);
+	-moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.31);
+	box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.31);
+}

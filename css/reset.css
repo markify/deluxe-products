@@ -1,3 +1,7 @@
+/*  more control for elements */
+* {
+	box-sizing: border-box;
+}
 /* The goal of a reset stylesheet is to reduce browser inconsistencies in things like default line heights, margins and font sizes of headings, etc.. */
 html,
 body,
