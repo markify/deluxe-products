@@ -3,6 +3,7 @@
 @import "mainpage/top-premium.css"; /* overwrite */
 @import "mainpage/header.css"; /* overwrite */
 @import "mainpage/designby.css"; /* overwrite */
+@import "mainpage/color-collection.css"; /* overwrite */
 
 .container {
 	max-width: 1400px;

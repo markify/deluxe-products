@@ -1,0 +1,235 @@
+#collection {
+  padding: 60px;
+}
+
+#collection:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#collection .left-side {
+  width: 60%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+
+#collection .left-side:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#collection .left-side img {
+  width: 70%;
+  display: inline-block;
+  float: left;
+}
+
+#collection .right-side {
+  width: 40%;
+  display: inline-block;
+  float: left;
+}
+
+#collection .right-side:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* inline block to reduce size padding of swatch*/
+#collection .right-side .swatch {
+  background: white;
+  padding: 12px 20px;
+  border-radius: 45px;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+#collection .right-side .swatch .circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+  background: #fea83b;
+  margin-right: 20px;
+  background: #ffd232; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #ffd232 0%,
+    #c1af24 50%,
+    #a09956 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #ffd232 0%,
+    #c1af24 50%,
+    #a09956 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffd232 0%,
+    #c1af24 50%,
+    #a09956 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#collection .right-side .swatch:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#collection .right-side .swatch .circle:nth-child(2) {
+  width: 70px;
+  height: 70px;
+  background: blue;
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+  background: #327cfc; /* Old browsers */
+  background: -moz-linear-gradient(top, #327cfc 0%, #2b5de5 50%, #6a80c4 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #327cfc 0%,
+    #2b5de5 50%,
+    #6a80c4 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #327cfc 0%,
+    #2b5de5 50%,
+    #6a80c4 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#collection .right-side .swatch .circle:nth-child(3) {
+  width: 70px;
+  height: 70px;
+  background: purple;
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+  margin-right: 0;
+  background: #b831f7; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #b831f7 0%,
+    #9527d1 50%,
+    #7e58a0 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #b831f7 0%,
+    #9527d1 50%,
+    #7e58a0 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #b831f7 0%,
+    #9527d1 50%,
+    #7e58a0 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#collection .right-side .info-box {
+  max-width: 290px;
+  width: 100%;
+  background: white;
+  padding: 40px 20px; /* display: inline-block; */
+  text-align: center;
+}
+#collection .right-side .info-box h2 {
+  font-size: 2rem;
+}
+#collection .right-side .info-box h2 span {
+  display: block;
+  text-align: center;
+}
+#collection .right-side .info-box h2 span.orange {
+  color: #fea83b;
+  font-weight: 100;
+}
+#collection .right-side .info-box h2 span.blue {
+  color: #6066f2;
+  font-weight: 200;
+}
+#collection .right-side .info-box h2 span.purple {
+  color: purple;
+  font-weight: 100;
+}
+#collection .right-side .info-box p {
+  color: #aaaacf;
+  font-size: 0.9rem;
+  margin: 30px 0;
+}
+/* display block */
+#collection .right-side .info-box a {
+  color: #6066f2;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 40px 0 20px;
+  display: block;
+}
+/* display inblock to insert underline */
+#collection .right-side .info-box .line {
+  background: purple;
+  height: 2px;
+  width: 50px;
+  display: inline-block;
+}
+/* SLIDER */
+/* things inside position relative  -> *(absolute positon) would stay inside */
+#collection .right-side .color-slider {
+  height: 500px;
+  width: 20px;
+  border-radius: 35px;
+  position: relative;
+  background: #ffd232;
+  /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #ffd232 0%,
+    #2989d8 50%,
+    #9056a0 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #ffd232 0%,
+    #2989d8 50%,
+    #9056a0 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffd232 0%,
+    #2989d8 50%,
+    #9056a0 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#collection .right-side .color-slider .picker {
+  height: 20px;
+  width: 20px;
+  border: 10px solid whitesmoke;
+  border-radius: 50%;
+  background: #2881cc;
+  box-sizing: content-box;
+  position: absolute;
+
+  top: 200px;
+  left: -10px;
+}
+/* right side of color collection, to separate column */
+/* when using floats we need to clear using
+	:after {
+ 	content: "";
+  	display: table;
+	  clear: both; */
+#collection .right-side .c1 {
+  float: left;
+  width: 68%;
+}
+#collection .right-side .c2 {
+  float: left;
+  width: 32%;
+}
