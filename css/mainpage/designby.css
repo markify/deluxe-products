@@ -4,8 +4,27 @@
 }
 
 #design .design-container {
-	width: 100%;
+	position: relative;
+	background: whitesmoke;
+	overflow: hidden;
 }
+
+#design .design-container .bg-container {
+	position: relative;
+	background: #4c44c1;
+	overflow: hidden;
+	padding: 45px;
+}
+
+#design .design-container .bg-img {
+	position: absolute;
+	width: 300px;
+	z-index: 1;
+	opacity: .2;
+	right: 0;
+	bottom: 0;
+}
+
 #design .design-container:after {
 	content: "";
 	display: table;
@@ -15,40 +34,48 @@
 	background: #4c44c1;
 	display: inline-block;
 	float: left;
-	width: 40%;
-	padding: 20px 40px 50px 40px;
 }
 #design .design-container .info-area h4 {
 	color: orange;
-	margin-bottom: 20px;
-	margin-left: 3px;
+	font-size: 1.4rem;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+	position: relative;
+	z-index: 2;
 }
 #design .design-container .info-area h1 {
-	font-weight: 700;
-	font-size: 30px;
-	margin-bottom: 20px;
 	color: whitesmoke;
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+	position: relative;
+	z-index: 2;
 }
 
 #design .design-container .info-area a {
 	border-radius: 2rem;
 	background: whitesmoke;
 	color: #4c44c1;
-	padding: 10px 85px;
+	padding: 10px 45px;
 	text-decoration: none;
 	text-transform: uppercase;
-	position: relative;
-	margin-right: 10px;
 	font-weight: 600;
 	font-size: 15px;
-	top: 20px;
+	margin-top: 30px;
+	display: inline-block;
+}
+#design .design-container .info-area .icon-area {
+	margin-bottom: 4rem;
+	position: relative;
+	z-index: 2;
 }
 
 #design .design-container .info-area .icon-area li {
 	list-style: none;
-	line-height: 2;
-	color: whitesmoke;
-	text-decoration: none;
+	color: white;
+	font-size: 1rem;
+	font-weight: 400;
+	margin-bottom: 15px;
+	vertical-align: top;
 }
 
 #design .design-container .info-area .icon-area li .far {
@@ -56,16 +83,17 @@
 	margin-right: 10px;
 }
 
+/*   ICON SECTION  - FOUR GRID */
 #design .design-container .fourgrid {
 	display: inline-block;
 	float: left;
 	width: 60%;
+	background: white;
 }
 
-#design .design-container .info-area img {
-	width: 40px;
-	height: 40px;
-	z-index: 1;
-	position: relative;
-	top: 80px;
+#design .design-container .fourgrid .iconbox {
+	display: inline-block;
+	float: left;
+	width: 60%;
+	background: white;
 }

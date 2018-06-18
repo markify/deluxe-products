@@ -41,6 +41,8 @@
 	font-size: 4rem;
 	line-height: 4rem;
 	font-weight: 700;
+	position: relative;
+	z-index: 2;
 }
 #top-premium .left .info-container p {
 	margin-top: 30px;
