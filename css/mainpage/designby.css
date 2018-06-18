@@ -5,8 +5,16 @@
 
 #design .design-container {
 	position: relative;
-	background: whitesmoke;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
 	overflow: hidden;
+}
+#design .design-container:after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 #design .design-container .bg-container {
@@ -25,11 +33,6 @@
 	bottom: 0;
 }
 
-#design .design-container:after {
-	content: "";
-	display: table;
-	clear: both;
-}
 #design .design-container .info-area {
 	background: #4c44c1;
 	display: inline-block;
@@ -38,13 +41,13 @@
 #design .design-container .info-area h4 {
 	color: orange;
 	font-size: 1.4rem;
-	margin-bottom: 2rem;
+	margin-bottom: 2.5rem;
 	text-transform: uppercase;
 	position: relative;
 	z-index: 2;
 }
 #design .design-container .info-area h1 {
-	color: whitesmoke;
+	color: white;
 	font-size: 2.5rem;
 	margin-bottom: 2rem;
 	position: relative;
@@ -53,7 +56,7 @@
 
 #design .design-container .info-area a {
 	border-radius: 2rem;
-	background: whitesmoke;
+	background: white;
 	color: #4c44c1;
 	padding: 10px 45px;
 	text-decoration: none;
@@ -62,6 +65,8 @@
 	font-size: 15px;
 	margin-top: 30px;
 	display: inline-block;
+	position: relative;
+	z-index: 2;
 }
 #design .design-container .info-area .icon-area {
 	margin-bottom: 4rem;
@@ -71,6 +76,7 @@
 
 #design .design-container .info-area .icon-area li {
 	list-style: none;
+	line-height: 2.1rem;
 	color: white;
 	font-size: 1rem;
 	font-weight: 400;
@@ -85,15 +91,44 @@
 
 /*   ICON SECTION  - FOUR GRID */
 #design .design-container .fourgrid {
-	display: inline-block;
-	float: left;
 	width: 60%;
 	background: white;
+	display: inline-block;
+	float: left;
+	position: relative;
 }
 
 #design .design-container .fourgrid .iconbox {
+	width: 50%;
+	height: 241px;
 	display: inline-block;
 	float: left;
-	width: 60%;
-	background: white;
+	text-align: center;
+	border: 1px solid #f4f5f7;
+	color: #4c44c1;
+}
+
+#design .design-container .fourgrid .iconbox .fas {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+	margin-top: 3.9rem;
+}
+
+#design .design-container .fourgrid .iconbox .icontitle {
+	font-size: 25px;
+	font-weight: 700px;
+}
+
+#design .design-container .fourgrid .middleicon {
+	position: absolute;
+	left: 46%;
+	top: 43%;
+	color: orange;
+	font-size: 25px;
+	border-radius: 50%;
+	background: whitesmoke;
+	padding: 20px;
+	-webkit-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.31);
+	-moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.31);
+	box-shadow: 0px 3px 40px -2px rgba(0, 0, 0, 0.31);
 }
