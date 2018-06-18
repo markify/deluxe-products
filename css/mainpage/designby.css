@@ -1,0 +1,71 @@
+#design {
+	position: relative;
+	top: -100px;
+}
+
+#design .design-container {
+	width: 100%;
+}
+#design .design-container:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+#design .design-container .info-area {
+	background: #4c44c1;
+	display: inline-block;
+	float: left;
+	width: 40%;
+	padding: 20px 40px 50px 40px;
+}
+#design .design-container .info-area h4 {
+	color: orange;
+	margin-bottom: 20px;
+	margin-left: 3px;
+}
+#design .design-container .info-area h1 {
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: whitesmoke;
+}
+
+#design .design-container .info-area a {
+	border-radius: 2rem;
+	background: whitesmoke;
+	color: #4c44c1;
+	padding: 10px 85px;
+	text-decoration: none;
+	text-transform: uppercase;
+	position: relative;
+	margin-right: 10px;
+	font-weight: 600;
+	font-size: 15px;
+	top: 20px;
+}
+
+#design .design-container .info-area .icon-area li {
+	list-style: none;
+	line-height: 2;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+#design .design-container .info-area .icon-area li .far {
+	color: orange;
+	margin-right: 10px;
+}
+
+#design .design-container .fourgrid {
+	display: inline-block;
+	float: left;
+	width: 60%;
+}
+
+#design .design-container .info-area img {
+	width: 40px;
+	height: 40px;
+	z-index: 1;
+	position: relative;
+	top: 80px;
+}

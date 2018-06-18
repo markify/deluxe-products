@@ -2,6 +2,7 @@
 @import "reset.css"; /* reset css goes first */
 @import "mainpage/top-premium.css"; /* overwrite */
 @import "mainpage/header.css"; /* overwrite */
+@import "mainpage/designby.css"; /* overwrite */
 
 .container {
 	max-width: 1400px;
