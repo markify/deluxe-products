@@ -1,22 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 @import "reset.css"; /* reset css goes first */
 @import "mainpage/top-premium.css"; /* overwrite */
 @import "mainpage/header.css"; /* overwrite */
 @import "mainpage/designby.css"; /* overwrite */
 @import "mainpage/color-collection.css"; /* overwrite */
+@import "mainpage/blueprint.css"; /* overwrite */
 
 .container {
-	max-width: 1400px;
-	margin: 0 auto;
-	padding: 0 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 /* 10% left right */
 .fluid-container {
-	margin: 0 5%;
-	padding: 0 20px;
+  margin: 0 5%;
+  padding: 0 20px;
 }
 .box-shadow-de {
-	-webkit-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.31);
-	-moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.31);
-	box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.31);
+  -webkit-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.31);
+  box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.31);
 }
