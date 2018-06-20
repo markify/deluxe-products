@@ -1,5 +1,5 @@
 #collection {
-  padding: 60px;
+  padding: 120px;
 }
 
 #collection:after {
@@ -125,12 +125,8 @@
     #9527d1 50%,
     #7e58a0 100%
   ); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #b831f7 0%,
-    #9527d1 50%,
-    #7e58a0 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(to bottom, #b831f7 0%, #9527d1 50%, #7e58a0 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 #collection .right-side .info-box {
   max-width: 290px;
@@ -215,7 +211,6 @@
   background: #2881cc;
   box-sizing: content-box;
   position: absolute;
-
   top: 200px;
   left: -10px;
 }
