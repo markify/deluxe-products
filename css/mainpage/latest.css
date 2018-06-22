@@ -72,42 +72,197 @@
   float: left;
   padding: 0px 15px;
 }
-
-#latest .body .column .bg-square {
+/*------------------------------- NTH(square) */
+/*------------------------------- NTH(square) */
+#latest .body .column:nth-child(1) .bg-square {
   width: 300px;
   height: 300px;
   margin: 0 auto;
-  background: #d0e4f7; /* Old browsers */
+  background: #ae90f4; /* Old browsers */
   background: -moz-linear-gradient(
-    45deg,
-    #d0e4f7 0%,
-    #73b1e7 24%,
-    #0a77d5 50%,
-    #539fe1 79%,
-    #87bcea 100%
+    -45deg,
+    #ae90f4 0%,
+    #3596ea 60%,
+    #0058dd 100%
   ); /* FF3.6-15 */
   background: -webkit-linear-gradient(
-    45deg,
-    #d0e4f7 0%,
-    #73b1e7 24%,
-    #0a77d5 50%,
-    #539fe1 79%,
-    #87bcea 100%
+    -45deg,
+    #ae90f4 0%,
+    #3596ea 60%,
+    #0058dd 100%
   ); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(
-    45deg,
-    #d0e4f7 0%,
-    #73b1e7 24%,
-    #0a77d5 50%,
-    #539fe1 79%,
-    #87bcea 100%
+    135deg,
+    #ae90f4 0%,
+    #3596ea 60%,
+    #0058dd 100%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   position: relative;
 }
+#latest .body .column:nth-child(2) .bg-square {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background: #91f2f0; /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    #91f2f0 1%,
+    #3596ea 60%,
+    #004eea 95%,
+    #004eea 95%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #91f2f0 1%,
+    #3596ea 60%,
+    #004eea 95%,
+    #004eea 95%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    #91f2f0 1%,
+    #3596ea 60%,
+    #004eea 95%,
+    #004eea 95%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  position: relative;
+}
+#latest .body .column:nth-child(3) .bg-square {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background: #ea978c; /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    #ea978c 0%,
+    #3596ea 60%,
+    #004eea 95%,
+    #004eea 95%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #ea978c 0%,
+    #3596ea 60%,
+    #004eea 95%,
+    #004eea 95%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    #ea978c 0%,
+    #3596ea 60%,
+    #004eea 95%,
+    #004eea 95%
+  );
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  position: relative;
+}
+/*------------------------------- NTH(square) */
+/*------------------------------- NTH(square) */
 /*parent div most always be relative so it keeps image inside */
 #latest .body .column .bg-square img {
   width: 70%;
   position: absolute;
   top: 50px;
   left: 50px;
+}
+/*------------------------------- NTH(cart) */
+/*------------------------------- NTH(cart) */
+#latest .body .column:nth-child(1) .bg-square .cart {
+  width: 80px;
+  height: 80px;
+  border: 8px solid white;
+  position: absolute;
+  top: -25px;
+  right: -20px;
+  border-radius: 50%;
+  background: #ae90f4;
+  /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    #ae90f4 0%,
+    #3596ea 60%,
+    #0058dd 100%
+  );
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #ae90f4 0%,
+    #3596ea 60%,
+    #0058dd 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #ae90f4 0%, #3596ea 60%, #0058dd 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#latest .body .column:nth-child(2) .bg-square .cart {
+  width: 80px;
+  height: 80px;
+  border: 8px solid white;
+  position: absolute;
+  top: -25px;
+  right: -20px;
+  border-radius: 50%;
+  background: #91f2f0; /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    #91f2f0 1%,
+    #3596ea 60%,
+    #004eea 95%,
+    #004eea 95%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #91f2f0 1%,
+    #3596ea 60%,
+    #004eea 95%,
+    #004eea 95%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    #91f2f0 1%,
+    #3596ea 60%,
+    #004eea 95%,
+    #004eea 95%
+  );
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#latest .body .column:nth-child(3) .bg-square .cart {
+  width: 80px;
+  height: 80px;
+  border: 8px solid white;
+  position: absolute;
+  top: -25px;
+  right: -20px;
+  border-radius: 50%;
+  background: #ea978c; /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    #ea978c 0%,
+    #3596ea 60%,
+    #004eea 95%,
+    #004eea 95%
+  );
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #ea978c 0%,
+    #3596ea 60%,
+    #004eea 95%,
+    #004eea 95%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    #ea978c 0%,
+    #3596ea 60%,
+    #004eea 95%,
+    #004eea 95%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+/*------------------------------- NTH(cart) */
+/*------------------------------- NTH(cart) */
+#latest .body .column .bg-square .cart .fas {
+  position: absolute;
+  top: 21px;
+  right: 22px;
+  color: white;
+  font-size: 20px;
 }
