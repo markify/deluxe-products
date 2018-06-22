@@ -5,6 +5,7 @@
 @import "mainpage/designby.css"; /* overwrite */
 @import "mainpage/color-collection.css"; /* overwrite */
 @import "mainpage/blueprint.css"; /* overwrite */
+@import "mainpage/latest.css"; /* overwrite */
 
 .container {
   max-width: 1400px;
