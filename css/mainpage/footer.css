@@ -1,0 +1,54 @@
+footer {
+  background: #6066ef;
+  padding: 80px 0;
+  text-align: center;
+  color: white;
+}
+
+footer h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+}
+
+footer h2 span {
+  font-weight: 700;
+  color: orange;
+}
+
+footer .menu li {
+  list-style: none;
+  display: inline-block;
+  padding: 40px 20px;
+}
+
+footer .menu li a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+footer p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+footer .social li {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+footer .social li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0 20px;
+  opacity: 0.4;
+  color: white;
+}
