@@ -28,8 +28,18 @@
 @media only screen and (max-width: 1215px) {
 }
 /* tablets devices */
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1077px) {
+  #top-premium header .fluid-container .header-buttons {
+    position: relative;
+    top: 70px;
+    float: left;
+    width: 100%;
+  }
 }
 /* mobile devices */
 @media only screen and (max-width: 767px) {
+  #top-premium header .fluid-container .menu a {
+    line-height: 2rem;
+    width: 100%;
+  }
 }

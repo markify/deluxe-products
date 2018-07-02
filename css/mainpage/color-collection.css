@@ -230,19 +230,22 @@
 }
 /* Media queries */
 /* laptop devices */
-@media only screen and (max-width: 1215px) {
+@media only screen and (max-width: 1415px) {
   #collection .right-side .c2 {
-    width: 32%;
-    position: relative;
-    left: 0px;
+    display: none;
+  }
+}
+@media only screen and (max-width: 1215px) {
+  #collection .right-side .c1 {
+    word-wrap: break-word;
   }
   #collection .right-side .c1 {
-    width: 32%;
-    position: relative;
-    left: 0px;
   }
   #collection .right-side {
-    position: relative;
+    width: 60%;
+  }
+  #collection .left-side {
+    width: 40%;
   }
 }
 /* tablets devices */
@@ -250,4 +253,7 @@
 }
 /* mobile devices */
 @media only screen and (max-width: 767px) {
+  #collection {
+    display: inline;
+  }
 }

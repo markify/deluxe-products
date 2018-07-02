@@ -68,14 +68,3 @@ header .header-buttons .orange-btn {
   position: relative;
   top: 20px;
 }
-
-/* Media queries */
-/* laptop devices */
-@media only screen and (max-width: 1215px) {
-}
-/* tablets devices */
-@media only screen and (max-width: 1023px) {
-}
-/* mobile devices */
-@media only screen and (max-width: 767px) {
-}

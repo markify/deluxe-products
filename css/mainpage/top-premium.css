@@ -125,6 +125,8 @@
   #top-premium .left {
     width: 65%;
   }
+  #top-premium {
+  }
 }
 /* mobile devices */
 @media only screen and (max-width: 767px) {
@@ -137,6 +139,7 @@
   #top-premium .left .info-container p {
     margin-top: 30px;
     color: whitesmoke;
+
     font-size: 1.2rem;
   }
   #top-premium .right img {

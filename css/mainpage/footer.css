@@ -63,13 +63,3 @@ footer .social li a {
   opacity: 0.4;
   color: white;
 }
-/* Media queries */
-/* laptop devices */
-@media only screen and (max-width: 1215px) {
-}
-/* tablets devices */
-@media only screen and (max-width: 1023px) {
-}
-/* mobile devices */
-@media only screen and (max-width: 767px) {
-}
