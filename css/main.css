@@ -23,3 +23,13 @@
   -moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.31);
   box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.31);
 }
+/* Media queries */
+/* laptop devices */
+@media only screen and (max-width: 1215px) {
+}
+/* tablets devices */
+@media only screen and (max-width: 1023px) {
+}
+/* mobile devices */
+@media only screen and (max-width: 767px) {
+}

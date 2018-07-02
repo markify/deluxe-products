@@ -1,6 +1,6 @@
 #top-premium {
   padding: 0 0 400px;
-
+  width: 100%;
   background: #fcf7ff; /* Old browsers */
   background: -moz-linear-gradient(
     -45deg,
@@ -22,7 +22,7 @@
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ /* generating this using colorzilla css gradient tool */
 }
 /* separate the two column into two sections */
-/* floating two objects, it can't detect height and width of each elements*/
+/* floating two objects, it can't detect height and width of each elements */
 /* this fixes the background gradient not showing for the part of top section */
 #top-premium:after {
   content: "";
@@ -68,6 +68,7 @@
   display: inline-block;
   padding: 10px;
   margin-top: 10px;
+  position: relative;
 }
 #top-premium .left .info-container .emailarea .fas {
   font-size: 2rem;
@@ -83,12 +84,15 @@
   border: none;
   font-size: 1.2rem;
   width: 230px;
+  position: relative;
 }
 #top-premium .left .info-container .emailarea input[type="email"]:focus {
   outline: none !important;
+  position: relative;
 }
 #top-premium .left .info-container .emailarea button {
   background: #4c44c1;
+  position: relative;
   padding: 20px 45px;
   color: white;
   border: none;
@@ -97,7 +101,7 @@
   border-radius: 35px;
   margin-left: 10px;
 }
-/*   RIGHT COL */
+/* RIGHT COL */
 #top-premium .right {
   width: 50%;
   display: inline-block;
@@ -106,4 +110,38 @@
 }
 #top-premium .right img {
   width: 100%;
+}
+/* Media queries */
+/* laptop devices */
+@media only screen and (max-width: 1215px) {
+}
+/* tablets devices */
+@media only screen and (max-width: 1023px) {
+  #top-premium .right img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 993px) {
+  #top-premium .left {
+    width: 65%;
+  }
+}
+/* mobile devices */
+@media only screen and (max-width: 767px) {
+  #top-premium .left {
+    width: 100%;
+  }
+  #top-premium .left .big-number {
+    font-size: 250px;
+  }
+  #top-premium .left .info-container p {
+    margin-top: 30px;
+    color: whitesmoke;
+    font-size: 1.2rem;
+  }
+  #top-premium .right img {
+    position: relative;
+    top: -40px;
+    width: 100%;
+  }
 }

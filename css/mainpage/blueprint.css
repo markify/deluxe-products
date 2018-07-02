@@ -39,7 +39,7 @@
   width: 40%;
   float: left;
 }
-/*clear float */
+/* clear float */
 #blueprint .container .right-side:after {
   content: "";
   display: table;
@@ -119,4 +119,70 @@
 }
 #blueprint .container .right-side .info-box {
   padding: 0 0 50px;
+}
+/* Media queries */
+/* laptop devices */
+@media only screen and (max-width: 1240px) {
+  #blueprint .left-side {
+    width: 100%;
+  }
+  #blueprint .left-side .bg-img {
+    width: 600px;
+    margin-top: -100px;
+  }
+  #blueprint .right-side .info-box {
+    margin: 0px;
+    padding: 0px;
+  }
+  #blueprint .container {
+    text-align: center;
+  }
+  #blueprint .right-side {
+    width: 100%;
+  }
+  #blueprint .right-side .info-box {
+    position: relative;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #blueprint .right-side .info-box .col-1 {
+    width: 40%;
+    float: left;
+    margin-right: 100px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #blueprint .right-side .info-box .col-2 {
+    width: 60%;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+/* tablets devices */
+@media only screen and (max-width: 1023px) {
+  #blueprint .left-side .bg-img {
+    width: 100%;
+    margin-top: -100px;
+  }
+  #blueprint .right-side .info-box .col-1 {
+    float: left;
+    text-align: left;
+    margin: 40px 200px;
+  }
+  #blueprint .right-side .info-box .col-2 {
+    float: left;
+    text-align: left;
+    margin: 40px 200px;
+    text-align: center;
+  }
+  #blueprint .right-side .info-box {
+    float: left;
+    text-align: left;
+    text-align: center;
+  }
+}
+/* mobile devices */
+@media only screen and (max-width: 767px) {
 }

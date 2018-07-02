@@ -59,7 +59,7 @@
 
 /* BODY */
 #latest .body {
-  padding: 180px 0;
+  padding: 50px 0;
 }
 #latest .body::after {
   content: "";
@@ -156,17 +156,17 @@
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   position: relative;
 }
-/*------------------------------- NTH(square) */
-/*------------------------------- NTH(square) */
-/*parent div most always be relative so it keeps image inside */
+/* ------------------------------- NTH(square) */
+/* ------------------------------- NTH(square) */
+/* parent div most always be relative so it keeps image inside */
 #latest .body .column .bg-square img {
   width: 70%;
   position: absolute;
   top: 50px;
   left: 50px;
 }
-/*------------------------------- NTH(cart) */
-/*------------------------------- NTH(cart) */
+/* ------------------------------- NTH(cart) */
+/* ------------------------------- NTH(cart) */
 #latest .body .column:nth-child(1) .bg-square .cart {
   width: 80px;
   height: 80px;
@@ -254,11 +254,10 @@
     #3596ea 60%,
     #004eea 95%,
     #004eea 95%
-  );
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
-/*------------------------------- NTH(cart) */
-/*------------------------------- NTH(cart) */
+/* ------------------------------- NTH(cart) */
+/* ------------------------------- NTH(cart) */
 #latest .body .column .bg-square .cart .fas {
   position: absolute;
   top: 21px;
@@ -269,7 +268,8 @@
 #latest .body .column .line {
   width: 20%;
   height: 2px;
-  background: #6066f2; /*center*/
+  background: #6066f2;
+  /* center */
   margin: 40px auto;
 }
 #latest .body .column .price {
@@ -290,8 +290,8 @@
   font-size: 20px;
   font-weight: 400px;
 }
-/*----------------------------------- footer --------------------*/
-/*----------------------------------- footer --------------------*/
+/* ----------------------------------- footer -------------------- */
+/* ----------------------------------- footer -------------------- */
 #latest .footer {
   text-align: center;
   position: relative;
@@ -325,7 +325,7 @@
   text-transform: capitalize;
   margin-bottom: 60px;
 }
-/*FOOTER BUTTONS */
+/* FOOTER BUTTONS */
 #latest .footer .info-box .input-area {
   background: white;
   border-radius: 35px;
@@ -362,4 +362,41 @@
   text-transform: uppercase;
   border-radius: 35px;
   margin-left: 10px;
+}
+/* Media queries */
+/* laptop devices */
+@media only screen and (max-width: 1215px) {
+}
+/* tablets devices */
+@media only screen and (max-width: 1023px) {
+  #latest .body .column:nth-child(1) {
+    width: 50%;
+    padding-
+  }
+  #latest .body .column:nth-child(2) {
+    width: 50%;
+  }
+  #latest .body .column:nth-child(3) {
+    margin-top: 50px;
+    width: 100%;
+    
+  }
+}
+/* mobile devices */
+@media only screen and (max-width: 767px) {
+  #latest .footer img {
+    width: 70%;
+    top: 0px;
+    left: 20%;
+  }
+  #latest .body .column:nth-child(1) {
+    width: 100%;
+  }
+  #latest .body .column:nth-child(2) {
+    margin-top: 50px;
+    width: 100%;
+  }
+  #latest .body .column:nth-child(3) {
+
+  }
 }

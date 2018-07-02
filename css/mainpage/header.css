@@ -1,70 +1,81 @@
 header {
-	padding: 30px 20px;
-	font-size: 13px;
-	font-weight: 600;
-	margin-bottom: 40px;
+  padding: 30px 20px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 40px;
 }
 
 header a {
-	text-decoration: none;
-	color: #4c44c1;
+  text-decoration: none;
+  color: #4c44c1;
 }
 /* keeps track of element being floated, clears it up */
 header:after {
-	content: "";
-	display: table;
-	clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 header .menu a {
-	text-transform: uppercase;
-	font-size: 20px;
-	padding: 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 20px;
 }
 
 header .toplogo {
-	display: inline-block;
-	float: left;
-	margin-right: 50px;
+  display: inline-block;
+  float: left;
+  margin-right: 50px;
 }
 
 /* when positioning with detail, position:relative - top,bottom,right,left */
 header .menu {
-	display: inline-block;
-	float: left;
-	position: relative;
-	top: 20px;
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 20px;
 }
 header .header-buttons {
-	display: inline-block;
-	float: right;
+  display: inline-block;
+  float: right;
 }
 
 /* for the blue button */
 header .header-buttons .blue-btn {
-	border-radius: 2rem;
-	background: #4c44c1;
-	padding: 10px 15px;
-	text-decoration: none;
-	text-transform: uppercase;
-	color: whitesmoke;
-	position: relative;
-	margin-right: 10px;
-	top: 20px;
+  border-radius: 2rem;
+  background: #4c44c1;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: whitesmoke;
+  position: relative;
+  margin-right: 10px;
+  top: 20px;
 }
 
 header .header-buttons .blue-btn .fas {
-	margin-left: 4px;
+  margin-left: 4px;
 }
 /* for the orange button */
 header .header-buttons .orange-btn {
-	border-radius: 2rem;
-	background: orange;
-	border-color: orange;
-	padding: 10px 15px;
-	text-decoration: none;
-	text-transform: uppercase;
-	color: whitesmoke;
-	position: relative;
-	top: 20px;
+  border-radius: 2rem;
+  background: orange;
+  border-color: orange;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: whitesmoke;
+  position: relative;
+  top: 20px;
+}
+
+/* Media queries */
+/* laptop devices */
+@media only screen and (max-width: 1215px) {
+}
+/* tablets devices */
+@media only screen and (max-width: 1023px) {
+}
+/* mobile devices */
+@media only screen and (max-width: 767px) {
 }

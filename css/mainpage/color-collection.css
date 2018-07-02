@@ -228,3 +228,26 @@
   float: left;
   width: 32%;
 }
+/* Media queries */
+/* laptop devices */
+@media only screen and (max-width: 1215px) {
+  #collection .right-side .c2 {
+    width: 32%;
+    position: relative;
+    left: 0px;
+  }
+  #collection .right-side .c1 {
+    width: 32%;
+    position: relative;
+    left: 0px;
+  }
+  #collection .right-side {
+    position: relative;
+  }
+}
+/* tablets devices */
+@media only screen and (max-width: 1023px) {
+}
+/* mobile devices */
+@media only screen and (max-width: 767px) {
+}
