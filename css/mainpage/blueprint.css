@@ -34,13 +34,11 @@
   width: 700px;
   margin-top: 200px;
 }
-
 /* right side */
 #blueprint .right-side {
   width: 40%;
   float: left;
 }
-
 /*clear float */
 #blueprint .container .right-side:after {
   content: "";
@@ -73,7 +71,9 @@
 #blueprint .right-side .info-box .col-2 a {
   text-transform: uppercase;
   text-decoration: none;
-  color: orange;
+  color: #b2fcff;
+  font-weight: 400;
+  font-size: 1rem;
 }
 #blueprint .container .right-side .info-box:after {
   content: "";
@@ -88,7 +88,6 @@
   width: 60%;
   float: left;
 }
-
 #blueprint .right-side .info-box .icon-container {
   width: 140px;
   height: 140px;

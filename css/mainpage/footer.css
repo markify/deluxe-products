@@ -1,28 +1,42 @@
 footer {
-  background: #6066ef;
+  background: #1e5799; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #2b91e5 0%,
+    #1e5799 50%,
+    #2b91e5 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #2b91e5 0%,
+    #1e5799 50%,
+    #2b91e5 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #2b91e5 0%,
+    #1e5799 50%,
+    #2b91e5 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   padding: 80px 0;
   text-align: center;
   color: white;
 }
-
 footer h2 {
   font-size: 3rem;
   font-weight: 600;
   text-transform: uppercase;
   color: white;
 }
-
 footer h2 span {
   font-weight: 700;
   color: orange;
 }
-
 footer .menu li {
   list-style: none;
   display: inline-block;
   padding: 40px 20px;
 }
-
 footer .menu li a {
   text-decoration: none;
   color: white;
@@ -30,19 +44,16 @@ footer .menu li a {
   font-weight: 700;
   text-transform: uppercase;
 }
-
 footer p {
   font-size: 0.9rem;
   font-weight: 500;
   margin-bottom: 40px;
 }
-
 footer .social li {
   list-style: none;
   text-decoration: none;
   display: inline-block;
 }
-
 footer .social li a {
   text-decoration: none;
   font-size: 1.5rem;
