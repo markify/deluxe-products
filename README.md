@@ -1,4 +1,4 @@
 # responsivedesign-html
 
-create a fully detailed responsive web page  
+create a fully detailed design with responsive media queries 
 lots of detailed using different techniques in css
